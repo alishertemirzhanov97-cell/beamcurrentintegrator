@@ -59,13 +59,6 @@ where:
 * (V_{th}) is the comparator threshold voltage,
 * (T) is the acquisition interval.
 
-## License
-
-This project is provided for research, educational, and instrumentation-development purposes.
-
-
-
-
 | Nanoammeter PCB Signal            | STM32 Pin | Function                                                   |
 | --------------------------------- | --------- | ---------------------------------------------------------- |
 | Comparator Output                 | PB3       | Hardware trigger input for TIM2 one-pulse reset generation |
@@ -73,3 +66,9 @@ This project is provided for research, educational, and instrumentation-developm
 | Integrator Reset                  | PA0       | TIM2 CH1 output generating reset pulse                     |
 | GND                               | GND       | Common ground                                              |
 | USB                               | USB FS    | Data acquisition and control                               |
+
+
+## License
+
+This project is provided for research, educational, and instrumentation-development purposes.
+
